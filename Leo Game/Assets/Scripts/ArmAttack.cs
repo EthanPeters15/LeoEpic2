@@ -93,6 +93,7 @@ public class ArmAttack : MonoBehaviour
             weaponStats = collision.GetComponent<MeeleWeapon>();
             collision.transform.parent = transform;
             isHoldingWeapon = true;
+            weaponStats.isHeld = true;
             currentWeaponAttackTime = weaponStats.attackTime; currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
             currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
         }
@@ -104,7 +105,6 @@ public class ArmAttack : MonoBehaviour
             collision.transform.parent = transform;
             isHoldingWeapon = true;
             currentWeaponAttackTime = weaponStats.attackTime;
-            currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
         }
     }
 }

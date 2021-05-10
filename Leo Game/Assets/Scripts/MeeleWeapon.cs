@@ -11,6 +11,7 @@ public class MeeleWeapon : MonoBehaviour
 
     [SerializeField] private bool isGun;
     [SerializeField] private bool isMelee;
+    [HideInInspector] public bool isHeld;
     /*[HideInInspector]*/ public bool isHitting;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,5 +22,15 @@ public class MeeleWeapon : MonoBehaviour
             enemyhealth.health -= damage;
         }
     }
+
+
+    private void Update()
+    {
+        if (isHeld)
+        {
+            transform.position = new Vector3(0f, 0f, 0f);
+        }
+    }
+
 
 }
