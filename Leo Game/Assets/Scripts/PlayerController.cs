@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
 	public ArmAttack armAttack;
 	public ArmAttack armAttack2;
 	[HideInInspector] public bool isAttacking;
+	public float DefaultHealth;
+	public float health;
+	public CameraShake cameraShake;
+	public float cameraSakeDuration;
 
 	//Arm Rotation Variables
 	private Vector3 mouse_pos;
@@ -31,6 +35,7 @@ public class PlayerController : MonoBehaviour
 		state = "Normal";
 		rb = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
+		health = DefaultHealth;
 	}
 
 	void Update()
@@ -42,6 +47,8 @@ public class PlayerController : MonoBehaviour
 			ArmRotate();
 			Attack();
 			hasWeaponCheck();
+			DropWeaponCall();
+			Die();
         }
 		if (state == "Attacking")
         {
@@ -49,6 +56,13 @@ public class PlayerController : MonoBehaviour
 			Flip();
 			ArmRotate();
 			hasWeaponCheck();
+			Die();
+        }
+
+		//Delete this if you see it\\
+		if (Input.GetKeyDown(KeyCode.P))
+        {
+			cameraShake.shakeDuration = cameraSakeDuration;
         }
 	}
 
@@ -156,4 +170,25 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	private void DropWeaponCall()
+    {
+		if (Input.GetKey(KeyCode.E))
+		{
+			armAttack.DropWeapon();
+		}
+    }
+
+	private void Die()
+    {
+		if (health <= 0f)
+        {
+			state = "Die";
+			PlayerAnim.SetBool("isDead", true);
+        }
+    }
+
+	public void TakeDamage()
+    {
+		cameraShake.shakeDuration = cameraSakeDuration;
+	}
 }
