@@ -50,17 +50,11 @@ public class ArmAttack : MonoBehaviour
 
     private void Update()
     {
-        if (currentWeapon != null) { weaponStats.isHitting = isHitting; Debug.Log("Should be setting"); }
+        //if (isHoldingWeapon) {Debug.Log("Should be setting"); }
+
         //if (isHitting) { trailRenderer.enabled = true; } else { trailRenderer.enabled = false; }
 
-        if (Input.GetButtonDown("Fire2") && isHoldingWeapon)
-        {
-            currentWeapon.transform.parent = null;
-            currentWeapon = null;
-            weaponStats = null;
-            currentWeaponAttackTime = 0.33f;
-        }
-
+        //if (isHoldingWeapon && isHitting) { weaponStats.isHitting = true; } else if (isHoldingWeapon && !isHitting) { weaponStats.isHitting = false; }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -97,14 +91,14 @@ public class ArmAttack : MonoBehaviour
             currentWeaponAttackTime = weaponStats.attackTime; currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
             currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
         }
-        else if (Input.GetButtonDown("Fire2"))
-        {
-            Destroy(currentWeapon);
-            currentWeapon = collision;
-            weaponStats = collision.GetComponent<MeeleWeapon>();
-            collision.transform.parent = transform;
-            isHoldingWeapon = true;
-            currentWeaponAttackTime = weaponStats.attackTime;
-        }
+    }
+
+    public void DropWeapon ()
+    {
+        Destroy(currentWeapon);
+        weaponStats = null;
+        currentWeapon = null;
+        isHoldingWeapon = false;
+        currentWeaponAttackTime = 0.33f;
     }
 }

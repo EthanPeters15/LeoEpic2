@@ -7,12 +7,20 @@ public class MeeleWeapon : MonoBehaviour
     public float damage;
     public float attackTime;
     private enemyHealth enemyhealth;
+    private BoxCollider2D collider;
 
 
     [SerializeField] private bool isGun;
     [SerializeField] private bool isMelee;
     [HideInInspector] public bool isHeld;
     /*[HideInInspector]*/ public bool isHitting;
+    private ArmAttack armAttack;
+    private int callGetComponentArmOnce = 1;
+
+    private void Awake()
+    {
+        collider = GetComponent<BoxCollider2D>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,10 +34,11 @@ public class MeeleWeapon : MonoBehaviour
 
     private void Update()
     {
-        if (isHeld)
-        {
-            transform.position = new Vector3(0f, 0f, 0f);
-        }
+        if (isHeld && callGetComponentArmOnce == 1) { callGetComponentArmOnce = 0; armAttack = transform.parent.GetComponent<ArmAttack>(); }
+        if (isHeld) { transform.position = transform.parent.position; isHitting = armAttack.isHitting; }
+
+        if (isHitting && isHeld) { collider.enabled = true; }
+        else if (isHeld) { collider.enabled = false; }
     }
 
 
