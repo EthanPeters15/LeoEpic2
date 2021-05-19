@@ -15,11 +15,11 @@ C:/Users/Kijiji User/Documents/GitHub/LeoEpic2/Leo Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57087
+57630
 Successfully changed project path to: C:/Users/Kijiji User/Documents/GitHub/LeoEpic2/Leo Game
 C:/Users/Kijiji User/Documents/GitHub/LeoEpic2/Leo Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -37,487 +37,146 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001882 seconds.
+Registered in 0.001952 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.006 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001297 seconds.
+Registered in 0.001470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.760 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1214 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.0 MB.
 System memory in use after: 65.0 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1663.
-Total: 1.806400 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.565700 ms  DeleteObjects: 0.073700 ms)
+Total: 1.541300 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.304300 ms  DeleteObjects: 0.072100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MainMixer.mixer
-  artifactKey: Guid(0015995071b2d1c4f8eae7dd54ee744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMixer.mixer using Guid(0015995071b2d1c4f8eae7dd54ee744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e6157b58ea6fe00384ac2be58d9469') in 0.040319 seconds
-  Import took 0.042515 seconds .
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu
+  artifactKey: Guid(c748716c87198f743a94c21da29a32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu using Guid(c748716c87198f743a94c21da29a32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f536447eec9f23d0069914365f57e1b') in 0.007137 seconds
+  Import took 0.009389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Menu/SHUT UP ETHAN
+  artifactKey: Guid(00de3a2f2e87c5f409dad9c9c6ec4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN using Guid(00de3a2f2e87c5f409dad9c9c6ec4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40869e43bdea45b3924b41f43792479c') in 0.005447 seconds
+  Import took 0.007907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.460577 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/89e37d9611818e81f65d368d0350e5c7.jpg
+  artifactKey: Guid(d9333958fc47e2746954fb00e8d546a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/89e37d9611818e81f65d368d0350e5c7.jpg using Guid(d9333958fc47e2746954fb00e8d546a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639181aaf6cb9b58af03432b76250350') in 0.106292 seconds
+  Import took 0.108849 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001289 seconds.
+Registered in 0.001434 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.743 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1666.
-Total: 1.843800 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.574100 ms  DeleteObjects: 0.063500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001252 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1669.
-Total: 1.979600 ms (FindLiveObjects: 0.135000 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.754300 ms  DeleteObjects: 0.046700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001794 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
+System memory in use before: 66.5 MB.
+System memory in use after: 66.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1672.
-Total: 1.671100 ms (FindLiveObjects: 0.122100 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.466200 ms  DeleteObjects: 0.050000 ms)
+Total: 2.004900 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.691800 ms  DeleteObjects: 0.055800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1418.344784 seconds.
-  path: Assets/Sprites/Tilemaps/1/1st TileSet.png
-  artifactKey: Guid(7f6584317259061429326a863567b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/1/1st TileSet.png using Guid(7f6584317259061429326a863567b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfab52729d1333f117b164718b237c4') in 0.185476 seconds
-  Import took 0.188841 seconds .
+  Time since last request: 165.583372 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/tenor.gif
+  artifactKey: Guid(7d63d9cb735aa1d4b87af93dd5202d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/tenor.gif using Guid(7d63d9cb735aa1d4b87af93dd5202d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df853f8833a8f3a884308ef2560d7677') in 0.055736 seconds
+  Import took 0.058454 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003787 seconds.
-  path: Assets/Sprites/Tilemaps/1/1st TileSet.png
-  artifactKey: Guid(7f6584317259061429326a863567b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/1/1st TileSet.png using Guid(7f6584317259061429326a863567b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfab52729d1333f117b164718b237c4') in 0.078281 seconds
-  Import took 0.081182 seconds .
+  Time since last request: 618.125086 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font
+  artifactKey: Guid(56761d8e937c5f544b376355b26b16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font using Guid(56761d8e937c5f544b376355b26b16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abc06fab799c8ac8cf516c0f8c0af2f') in 0.007022 seconds
+  Import took 0.009527 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.102510 seconds.
-  path: Assets/Sprites/Tilemaps/2/2nd Tileset.png
-  artifactKey: Guid(e3955d9ec531ebe4883f42bdf17a2258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/2/2nd Tileset.png using Guid(e3955d9ec531ebe4883f42bdf17a2258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5746e18c3bc60fe153d137e1fdf283c8') in 0.085438 seconds
-  Import took 0.088158 seconds .
+  Time since last request: 0.749741 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll SDF.asset
+  artifactKey: Guid(f4c7b5f87106a0245957060d45d59041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll SDF.asset using Guid(f4c7b5f87106a0245957060d45d59041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbdb040222fa51e0b8039ba19b878c4') in 0.077056 seconds
+  Import took 0.079571 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.936716 seconds.
-  path: Assets/Sprites/Tilemaps/3/3rd Tileset.png
-  artifactKey: Guid(46c1980c87259d8488d046a5e376dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/3/3rd Tileset.png using Guid(46c1980c87259d8488d046a5e376dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc6bc091aefffc97da11baeef8a6853') in 0.082327 seconds
-  Import took 0.084993 seconds .
+  Time since last request: 3.134747 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/misc
+  artifactKey: Guid(9b6f26e6c55900d44877b5c41ad27b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/misc using Guid(9b6f26e6c55900d44877b5c41ad27b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff50e7af72287294b4c104a46c7f178') in 0.006488 seconds
+  Import took 0.008571 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002964 seconds.
-  path: Assets/Sprites/Tilemaps/3/3rd Tileset.png
-  artifactKey: Guid(46c1980c87259d8488d046a5e376dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/3/3rd Tileset.png using Guid(46c1980c87259d8488d046a5e376dd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc6bc091aefffc97da11baeef8a6853') in 0.100291 seconds
-  Import took 0.102994 seconds .
+  Time since last request: 22.686687 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/New Animation.anim
+  artifactKey: Guid(db5be66bd9ec4c04c8ac54a087c87c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/New Animation.anim using Guid(db5be66bd9ec4c04c8ac54a087c87c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384631518da7be9cd80458a63bab090e') in 0.009275 seconds
+  Import took 0.011593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.792789 seconds.
-  path: Assets/Sprites/Tilemaps/4/4th Tileset.png
-  artifactKey: Guid(e0e1317a0ec13524eb1ca1d0cea707ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/4/4th Tileset.png using Guid(e0e1317a0ec13524eb1ca1d0cea707ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcddabf668f67d5584413f0368019cf') in 0.111487 seconds
-  Import took 0.114055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.988564 seconds.
-  path: Assets/Sprites/Tilemaps/5/5th Tileset.png
-  artifactKey: Guid(e09717dd719acbe4faef01fbde12a008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/5/5th Tileset.png using Guid(e09717dd719acbe4faef01fbde12a008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d40940b64d6713cbd1ca6c07884d068') in 0.071990 seconds
-  Import took 0.074309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.747537 seconds.
-  path: Assets/Sprites/Tilemaps/6/6th Tileset.png
-  artifactKey: Guid(51688e185a613f04a865165ca87393bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/6/6th Tileset.png using Guid(51688e185a613f04a865165ca87393bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2dd6d09ff00f8af974e6f56e93252f') in 0.070232 seconds
-  Import took 0.072980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.877685 seconds.
-  path: Assets/Sprites/Tilemaps/7/7th Tileset.png
-  artifactKey: Guid(465815659f6ea854f91ba7d68e5d5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilemaps/7/7th Tileset.png using Guid(465815659f6ea854f91ba7d68e5d5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7439215e3b6d89c8845cfdb9f007f600') in 0.078200 seconds
-  Import took 0.081436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.328182 seconds.
-  path: Assets/Sprites/Big Sword.png
-  artifactKey: Guid(66b2c78ac868db0419ccaf94f535127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Big Sword.png using Guid(66b2c78ac868db0419ccaf94f535127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686bdfcdbd6838c62dbf3bbf54293d82') in 0.012911 seconds
-  Import took 0.015346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/Cursor.png
-  artifactKey: Guid(ba59a278d103665449c68ff2891b91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Cursor.png using Guid(ba59a278d103665449c68ff2891b91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab65b4b5f442b3f7cce4a3da85ad546') in 0.011317 seconds
-  Import took 0.013467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Sprites/Big Sword.png
-  artifactKey: Guid(66b2c78ac868db0419ccaf94f535127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Big Sword.png using Guid(66b2c78ac868db0419ccaf94f535127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686bdfcdbd6838c62dbf3bbf54293d82') in 0.006190 seconds
-  Import took 0.008710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run00.png
-  artifactKey: Guid(2d731ce2c286e0c4db179d8e16595e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run00.png using Guid(2d731ce2c286e0c4db179d8e16595e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1339f14b89bac9f86bc253f948b68a6') in 0.011556 seconds
-  Import took 0.013485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/Leo/Hand.png
-  artifactKey: Guid(af74df10a68209642b543ac6d685e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Hand.png using Guid(af74df10a68209642b543ac6d685e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561b1de6d34337870e95f198f70f23b') in 0.010999 seconds
-  Import took 0.012964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000842 seconds.
-  path: Assets/Sprites/Cursor.png
-  artifactKey: Guid(ba59a278d103665449c68ff2891b91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Cursor.png using Guid(ba59a278d103665449c68ff2891b91b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab65b4b5f442b3f7cce4a3da85ad546') in 0.006327 seconds
-  Import took 0.008642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062349 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run01.png
-  artifactKey: Guid(9dd9a06aa934a944da9139045e4c7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run01.png using Guid(9dd9a06aa934a944da9139045e4c7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8bf9be04126eea06ee8c3cdd86c759') in 0.009619 seconds
-  Import took 0.011802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run02.png
-  artifactKey: Guid(ea4c244a96af4bc4eb7a5bbb3d2a0e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run02.png using Guid(ea4c244a96af4bc4eb7a5bbb3d2a0e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8e5044c208b796289ec09cab713880') in 0.011165 seconds
-  Import took 0.013528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.975106 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run03.png
-  artifactKey: Guid(0f7edfa8172570c4588b0d001e230231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run03.png using Guid(0f7edfa8172570c4588b0d001e230231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d35c49c28d26f5626a70602b6b7254') in 0.010403 seconds
-  Import took 0.012805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run04.png
-  artifactKey: Guid(b4e2a98b92a28be4da454031f23e91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run04.png using Guid(b4e2a98b92a28be4da454031f23e91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfffb56a86bc5485a28bde3cc8f34f2') in 0.013343 seconds
-  Import took 0.015710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001153 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run05.png
-  artifactKey: Guid(59089c179a404594590ee5ba0461e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run05.png using Guid(59089c179a404594590ee5ba0461e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f883ce1569ddbf1695d87ab3eb9087') in 0.011050 seconds
-  Import took 0.013347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run06.png
-  artifactKey: Guid(7859072f1649545478f27783d169ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run06.png using Guid(7859072f1649545478f27783d169ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff16a81bdc3b70b5cb5dc608a07ef8') in 0.011366 seconds
-  Import took 0.013364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019679 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run06.png
-  artifactKey: Guid(7859072f1649545478f27783d169ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run06.png using Guid(7859072f1649545478f27783d169ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff16a81bdc3b70b5cb5dc608a07ef8') in 0.007051 seconds
-  Import took 0.009256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039869 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run07.png
-  artifactKey: Guid(a16347e77dc51bb4185e125cf5fb2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run07.png using Guid(a16347e77dc51bb4185e125cf5fb2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e48efa511d37c53c5bd933b75b3d2cc') in 0.012302 seconds
-  Import took 0.014619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run09.png
-  artifactKey: Guid(0a1f39a0c9ef5f9499860049f8e65080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run09.png using Guid(0a1f39a0c9ef5f9499860049f8e65080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d1f8fd0e788c7e2238810875996690') in 0.011186 seconds
-  Import took 0.013219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/Pine Tree.png
-  artifactKey: Guid(6b50ad46f6b1b0e44bfe79a29089c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pine Tree.png using Guid(6b50ad46f6b1b0e44bfe79a29089c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbc12ac5bff1df8a7ca07f6aed27c37') in 0.012932 seconds
-  Import took 0.014861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/Leo/Run/Leo Run08.png
-  artifactKey: Guid(58ab941796553b54089796156cfaa0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Leo Run08.png using Guid(58ab941796553b54089796156cfaa0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5fe705b40627d08e9b4903146e083a') in 0.011370 seconds
-  Import took 0.013359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.007256 seconds.
-  path: Assets/Sprites/Pine Tree Top.png
-  artifactKey: Guid(8ffda64e9d61a9f4ba00bc63ecf94bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pine Tree Top.png using Guid(8ffda64e9d61a9f4ba00bc63ecf94bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830efeac4a11544cb8d3fbd5d49d9118') in 0.011270 seconds
-  Import took 0.013895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run0.png
-  artifactKey: Guid(e19bf98f04a92684a8f67a6a7fbd3eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run0.png using Guid(e19bf98f04a92684a8f67a6a7fbd3eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f31b2e1aaced2b170b6d4c3ab9640e') in 0.015522 seconds
-  Import took 0.018166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026009 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run0 1.png
-  artifactKey: Guid(1182f2490d4ffea4e81439b5ca7c0fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run0 1.png using Guid(1182f2490d4ffea4e81439b5ca7c0fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a54de8006117d96f303e3370c16ddc4') in 0.015607 seconds
-  Import took 0.018501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run1.png
-  artifactKey: Guid(87cdef6bfbc00a440a1730d3c95bb96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run1.png using Guid(87cdef6bfbc00a440a1730d3c95bb96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8cdf1555a1935d527da9d34e75dada') in 0.017407 seconds
-  Import took 0.020844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087001 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run1 1.png
-  artifactKey: Guid(20012ff5b24887c47b987f49b70b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run1 1.png using Guid(20012ff5b24887c47b987f49b70b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd791009fe199db4876cfd03eb2cd0c') in 0.013865 seconds
-  Import took 0.016232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run3.png
-  artifactKey: Guid(cee1a2d5d24adca4daf406435644acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run3.png using Guid(cee1a2d5d24adca4daf406435644acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff394c87c4afe88e381c069f99b539ec') in 0.012922 seconds
-  Import took 0.015078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run2.png
-  artifactKey: Guid(a528589bedc9e394f9f8a49dcf7fdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run2.png using Guid(a528589bedc9e394f9f8a49dcf7fdb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc47e7d5d8f27a57970feacdbf99b297') in 0.011864 seconds
-  Import took 0.014535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run2 1.png
-  artifactKey: Guid(ae9ee55a68a093048b1490de83313529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run2 1.png using Guid(ae9ee55a68a093048b1490de83313529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37232d17df03791f6bd6f194b8bdec83') in 0.014949 seconds
-  Import took 0.017406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.309310 seconds.
-  path: Assets/Sprites/Leo/Run/Old/Run3 1.png
-  artifactKey: Guid(e66287c3b7282234884eb1c23cb59b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Leo/Run/Old/Run3 1.png using Guid(e66287c3b7282234884eb1c23cb59b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f6e3c85ddc23527738d7ab78f50721') in 0.014210 seconds
-  Import took 0.016393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/White Square.png
-  artifactKey: Guid(f4975dc89df5ad6428f20821a983b2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/White Square.png using Guid(f4975dc89df5ad6428f20821a983b2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf52ebb291a63baacf190ea8dc9c955') in 0.017889 seconds
-  Import took 0.019908 seconds .
+  Time since last request: 0.001163 seconds.
+  path: Assets/Menu/SHUT UP ETHAN/Main Menu/New Animation.anim
+  artifactKey: Guid(db5be66bd9ec4c04c8ac54a087c87c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/New Animation.anim using Guid(db5be66bd9ec4c04c8ac54a087c87c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384631518da7be9cd80458a63bab090e') in 0.002262 seconds
+  Import took 0.005527 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001243 seconds.
+Registered in 0.001439 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.755 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.7 MB.
-System memory in use after: 66.8 MB.
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1697.
-Total: 1.561400 ms (FindLiveObjects: 0.127200 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.351600 ms  DeleteObjects: 0.048900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.849000 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.630800 ms  DeleteObjects: 0.054700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 869.850406 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf
-  artifactKey: Guid(4100fdcf48489fc4b858cb4d9f2c2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf using Guid(4100fdcf48489fc4b858cb4d9f2c2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f8e1ee28d044e98b4809ce84393a54') in 0.085599 seconds
-  Import took 0.089210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeBold-WyonA.otf
-  artifactKey: Guid(dea27b52d65e69e4fba3493fb8b7b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeBold-WyonA.otf using Guid(dea27b52d65e69e4fba3493fb8b7b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca269e31f2831cb6e2a81b2d3f8743c') in 0.014314 seconds
-  Import took 0.016827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf
-  artifactKey: Guid(4100fdcf48489fc4b858cb4d9f2c2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf using Guid(4100fdcf48489fc4b858cb4d9f2c2183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f8e1ee28d044e98b4809ce84393a54') in 0.010379 seconds
-  Import took 0.012417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae25d68c56a80e45fa2890359bf11dd7') in 0.014759 seconds
-  Import took 0.016705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeThin-9Y6aZ.otf
-  artifactKey: Guid(e145809018188964d97b8bc92b01fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeThin-9Y6aZ.otf using Guid(e145809018188964d97b8bc92b01fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c767fe70b7a30e675cd321e6547dc4') in 0.011847 seconds
-  Import took 0.013905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae25d68c56a80e45fa2890359bf11dd7') in 0.008533 seconds
-  Import took 0.010526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036243 seconds.
-  path: Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeThin-9Y6aZ.otf
-  artifactKey: Guid(e145809018188964d97b8bc92b01fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/SHUT UP ETHAN/Main Menu/momcake-font/MomcakeThin-9Y6aZ.otf using Guid(e145809018188964d97b8bc92b01fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c767fe70b7a30e675cd321e6547dc4') in 0.009816 seconds
-  Import took 0.012043 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001390 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1741.
-Total: 1.749300 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.515800 ms  DeleteObjects: 0.051000 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
