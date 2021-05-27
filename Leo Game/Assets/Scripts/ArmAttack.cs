@@ -7,6 +7,7 @@ public class ArmAttack : MonoBehaviour
 
     //Stats
     public float damage;
+    public Transform player;
 
     //Default Stats
     private Vector2 defaultHitbox = new Vector2(0.5f, 0.35f);
@@ -90,6 +91,7 @@ public class ArmAttack : MonoBehaviour
             weaponStats.isHeld = true;
             currentWeaponAttackTime = weaponStats.attackTime; currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
             currentWeapon.transform.position = new Vector3(0f, 0f, 0f);
+            if (player.localScale.x == -1f) { currentWeapon.transform.localScale = new Vector3(1f, -1f, 1f); }
         }
     }
 
